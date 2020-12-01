@@ -1,0 +1,88 @@
+$bg: #00ffa4;
+$primary: black;
+$secondary: white;
+.logo {
+  color: $primary;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.06rem;
+}
+
+.main {
+  --bg-opacity: 1;
+  background-color: rgba(237, 242, 247, var(--bg-opacity));
+  min-height: 100vh;
+}
+.urls-cont {
+  margin: 2rem 0;
+  border-width: 1px;
+  box-shadow: 0 2px 2px 3px rgba(0, 0, 0, 0.05);
+}
+.bar-option-cont {
+  padding: 1rem 0;
+  background: $bg;
+  color: $primary;
+}
+.bar-option {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.06rem;
+  color: $primary;
+}
+.url-list-cont {
+  background: $secondary;
+}
+.url-card {
+  border-bottom: 1px solid #e2e8f0;
+}
+.pin {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #718096;
+  font-weight: 700;
+}
+
+.pinned {
+  color: $bg;
+}
+.url-holder {
+  width: 80%;
+}
+.url-item {
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  color: #2d3748;
+  letter-spacing: 0.04rem;
+  font-weight: 500;
+  cursor: pointer;
+  word-break: break-all;
+  line-height: 1.5;
+  width: 40%;
+}
+.url-item1 {
+  width: 50%;
+}
+.clicked {
+  font-size: 1rem;
+  font-weight: 700;
+  color: $primary;
+  background: $bg;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.error-msg {
+  padding: 5px;
+  color: red;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.heading2 {
+  color: red;
+  font-size: 50px;
+}
