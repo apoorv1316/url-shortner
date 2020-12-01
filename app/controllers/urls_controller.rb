@@ -1,8 +1,9 @@
 class UrlsController < ApplicationController
+  
   before_action  :set_url, only: [:show, :update]
 
   def index
-    @urls = Url.order("pinned DESC, created_at DESC")
+    @urls = Url.all
   end
 
   def create
